@@ -1,0 +1,446 @@
+
+.container nav,
+.container>.navbar,
+.container>#myCarousel,
+.container .row {
+	margin: 0px;
+	padding: 0px;
+	width: 100% !important;
+	
+}
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+body div.container{
+	width: 1100px;
+	margin: 0px auto;
+	padding-top: 80px;
+}
+.f-back1{
+	color: #3d3c3c !important;
+}
+a:link {text-decoration: none;}		/* 未访问的链接 */
+a:visited {text-decoration: none; }	/* 已访问的链接 */
+a:hover {text-decoration: none;}	/* 鼠标移动到链接上 */
+a:active {text-decoration: none;}
+.padding {
+	padding: 0;
+}
+.margin{
+	margin: 0;
+}
+
+.bg-color{
+	background-color:#ee4353;	
+}
+
+.container .panel {
+	position: fixed;
+	border: none;
+	top: 40%;
+	background-color: rgba(0,0,0,0);
+	right: 0;
+	padding-bottom: 10px;
+}
+.container .panel div:nth-of-type(1){
+	display: inline-block;
+	float: right;
+	width: 30px;
+	padding: 8px 5px;
+	font-size: 20px;
+	background-color: brown;
+	color: white;
+}
+
+
+.container>div.classIFY{
+	background-color: #000000;
+	height: 500px;
+	overflow: hidden;
+	padding: 0 !important;
+}
+
+.container>div.classIFY #tagnav ul{
+	
+	list-style-type: none;
+	font-size: 17px;
+	padding-top: 10px;
+}
+.container>div.classIFY #tagnav ul li{
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	width: 100%;
+	border-bottom: 1px solid #434343;
+}
+.container>div.classIFY #tagnav ul li a{
+	color: white;	
+}
+.container>#pullDown{
+	display: none;
+	width:500px ;
+	z-index: 5;
+	position: absolute;
+	left: 20%;
+	height: 500px;
+	padding-left:0;
+	background-color: white;
+	
+}
+.container>#pullDown div ul{
+	
+	display: none;
+	padding-left: 20px;
+	height:500px;
+	border-bottom: 1px solid gainsboro;
+	list-style-type: none;
+}
+.container>#pullDown div ul li{
+	display: inline-block;
+	min-width: 100px;
+	line-height: 40px;
+	padding-right: 10px;
+	padding-left: 5px;
+	height: 40px;
+	font-size: 17px;
+	border-bottom: 1px solid gainsboro;
+	
+}
+.container>#pullDown div ul li a{
+	color: #000000;
+}
+.container>div.slide{
+	max-width:none !important;
+	height: 500px;
+	
+}
+ 
+.container>div.slide:after{
+	padding-top:0 !important;
+	
+}
+.container>div.slide>div.carousel-inner,.container>div.slide>div.carousel-inner div img{
+	width: 100% !important;
+	height: 500px;
+}
+
+.container .panel .panel-body button:hover {
+	background-color: white;
+	color:#ee4353;
+	border:#ee4353 1px solid;
+}
+
+.fb-color {
+	color:#ee4353;
+	border:#ee4353 1px solid;
+}
+.bg-white{
+	background-color: white;
+}
+
+.f-color {
+	color:#ee4353 !important;
+}
+
+.total {
+	background-color: #526d93;
+	color: white;
+}
+
+.container .row .classify {
+	width: 100%;
+	overflow: hidden;
+	height: 80px;
+	display: inline-flex;
+	padding-top: 8px;
+	padding-bottom: 0.2rem;
+	line-height: 2rem;
+	padding-left: 8px;
+	margin-left: 0px;
+	padding-bottom: 0.1rem;
+}
+.container .row .classify ul{
+	display: block;
+	width: 100%;
+	padding: 0px;
+	height: 80px;
+	margin: 0px;
+	white-space: nowrap;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+.container .row .classify ul li {
+	height: 80px;
+	white-space: nowrap;
+	line-height:70px;
+	display: inline;
+	font-size: 30px;
+	
+	border-right: 2px solid white;
+	color:white;
+	text-align: center;
+	margin-right: 8px;
+	padding: 0 12px !important;
+}
+.container .row .classify ul li:last-child{
+	padding: 0px;
+}
+
+#clickPullDown{
+	position: absolute;
+	z-index: 3;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	right: 0;
+	margin-right: 0px;
+	height: 2.4rem !important;
+	padding-bottom: 0;
+}
+.container .row .screen .box {
+	padding: 0px;
+	background-color: white;
+}
+
+.container .row .box>a{
+	padding-top: 10px;
+	background-color: white;
+	position: relative;
+	min-height: 210px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+.container .row .box>a:hover{
+	border: 1px solid gray;
+}
+.container .row .box a>button {
+	float: right;
+	top: 10px;
+	right: 10px;
+	opacity: 0.8;
+	width: 25px;
+	height: 25px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	position: absolute;
+}
+
+.container .row .box a img {
+	width: 100%;
+	min-height: 158px;
+}
+.container .row .box a div{
+	text-align: center;
+	color: #3d3c3c;
+	overflow: hidden;
+	font-size: 2.0rem;
+	font-family: 'Heiti SC',"Microsoft Yahei";
+	padding-left: 5px;
+}
+.container .row .box a p{
+	line-height: 1.5rem;
+	height: 2.0rem;
+	overflow: hidden;
+	margin-top: 5px;
+	font-weight:800 !important;
+	text-overflow: ellipsis;
+	font: 17px "PingFang SC", "Microsoft YaHei";
+	color: #000000;
+}
+.container .row .box a p.bold{
+	
+}
+.container>.row>.zindex>.weui_tabbar>a>p{
+	font-size: 1.05rem !important;
+	font-family: shopIcon;
+}
+.iadd{
+	color:#888 !important;
+}
+.screenTop {
+	background-color: white;
+	position: fixed;
+	z-index: 502;
+	opacity: 1;
+	top: 0px;
+	background-color: white;
+	
+}
+
+
+
+.container .row>p{
+	font-weight:800 !important;
+	font: 25px "PingFang SC", "Microsoft YaHei";
+	margin-top: 100px;
+}
+
+
+.pagination li a{
+	border-radius: 10%;
+	margin-right: 5px;
+	height: 50px !important;
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 5px;
+	border: 1px solid gainsboro !important;
+}
+.pagination{
+	margin-top: 100px;
+}
+/*买家秀*/
+.container .rdiv.box1{
+	padding-top: 50px;
+	width: 100%;
+}
+.container div.box1 .box1Top{
+	width:300px;
+	margin:20px auto;
+	z-index: 2;
+}
+.container div.box1 .box1Top p{
+	border-bottom: 2px solid #000000;
+	padding-bottom: 20px;
+	margin-top: 0;
+	min-width: 100px;
+	text-align: center;
+	font-family: "微软雅黑";
+	margin-bottom: 0;
+}
+.container div.box1 .box1Top p a{
+	color: #000000;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.container div.box1 .box1Top p a:hover{
+	color: gray;
+}
+.container div.box1 .box1Top div{
+	background-color: white;
+	width: 300px;
+	z-index: 5;
+	position: absolute;
+	display: none;
+}
+.container div.box1 .box1Top div ul{
+	color: #000000;
+	padding-top: 20px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 17px;
+}
+.container div.box1 .box1Top div ul li a{
+	display: inline-block;
+	height: 35px;
+	color: #000000;
+}
+.container div.box1 .box1Top div ul li a:hover{
+	color: #ff2d55;
+}
+
+.container div.box1 div.boxBox>a{
+	border: 1px solid rgba(0,0,0,0);
+	padding: 0;
+	height: 400px;
+}
+.container div.box1 div.boxBox>a:hover{
+	border: 1px solid gray;
+}
+.container div.box1 div.boxBox>a:hover>div:nth-of-type(1){
+	display: none;
+}
+.container div.box1 div.boxBox>a:hover>div:nth-of-type(2){
+	display: block;
+
+}
+
+.container div.box1 div.boxBox>a.col-33{
+	margin: 30px 1%;
+	float: left !important;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(1){
+	padding: 0;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(1)>div:nth-of-type(1){
+	padding: 0;
+	width: 100%;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(1)>div:nth-of-type(1) img{
+	width: 100%;
+	height: 215px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(1)>div:nth-of-type(2){
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(1)>div:nth-of-type(2) img{
+	width: 60px;
+	height: 60px;
+	z-index: 4;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin-top:-30px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(1)>div:nth-of-type(3) p{
+	margin-bottom: 20px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2){
+	display:none ;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(1){
+	
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(1) img{
+	width: 60px;
+	height: 60px;
+	z-index: 4;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin-top:20px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(2) p{
+	margin-bottom: 10px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(2) p:nth-of-type(1) span{
+	color: #ff2d55;
+	font-size: 20px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(3){
+	margin: 15px 0;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(3) p{
+	
+	width: 60px;
+	margin: 0 auto;
+	background-color: #ff2d55;
+	color: white;
+	font-size: 13px;
+	line-height: 30px;
+	border-radius: 30px;
+	font-family:"微软雅黑";
+	height: 30px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2) hr{
+	margin: 10px 7%;
+	border: 1px solid #dadada
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(4){
+	margin: 20px 0;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(4) span{
+	color: #ffcc33;
+	font-size: 20px;
+}
+.container div.box1 div.boxBox>a>div:nth-of-type(2)>div:nth-of-type(5){
+	padding: 0 20px;
+	margin-top: 30px;
+}
+

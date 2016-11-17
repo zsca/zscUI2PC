@@ -1,0 +1,540 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>用户中心</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<link rel="stylesheet" href="css/user.css" />
+		<link rel="stylesheet" type="text/css" href="css/topBottom.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+	</head>
+
+	<body ontouchstart>
+		<!--顶部导航栏-->
+		<div class=" borderButtom">
+			<div>
+				<a href="index.html" class="">万花飞盛</a>
+			</div>
+			<div>
+				<a href="index.html ">首页</a>
+				<a href="indexLifeHome.html ">生活家</a>
+				<a>登录</a>
+			</div>
+		</div>
+		<div class="userIBox">
+			<div class="userIBoxLeft">
+				<div class="oneCenter">
+					<p>个人中心</p>
+					<ul>
+						<li>
+							个人资料
+						</li>
+					</ul>
+				</div>
+				<div class="ordersManage">
+					<p>订单管理</p>
+					<ul>
+						<li class="ordersManage5">
+							全部订单
+						</li>
+						<li class="ordersManage4">
+							已收件
+						</li>
+						<li class="ordersManage3">
+							已发货
+						</li>
+						<li class="ordersManage2">
+							未发货
+						</li>
+						<li class="ordersManage1">
+							待付款
+						</li>
+						<li class="ordersManage0">
+							已取消
+						</li>
+					</ul>
+				</div>
+				<div class="collection">
+					<p>收藏/足迹</p>
+					<ul>
+						<li class="collection1">
+							收藏的店铺
+						</li>
+						<li class="collection2">
+							收藏的商品
+						</li>
+						<li class="collection3">
+							咨询过报价的店铺
+						</li>
+						<li class="collection4">
+							浏览记录
+						</li>
+					</ul>
+				</div>
+				企业版独有
+				<div class="customer">
+					<p>客户管理</p>
+					<ul>
+						<li class="customer1">
+							咨询报价的客户
+						</li>
+						<li class="customer2">
+							允许查看报价的客户
+						</li>
+						<li class="customer3">
+							不允许查看报价的客户
+						</li>
+						<li class="customer4">
+							访客
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="userIBoxRight">
+				<div>
+					<!--个人中心-->
+					<div class="oneCenter">
+						<p>个人资料</p>
+						
+						<div class="">
+							<p>个人版</p>
+							<form action="" method="post" name="form1">
+								
+								<div class="">
+									<span>个人头像</span>
+									<img src="images/2 (11).jpg" />
+									<span></span>
+									<input type="file" name="选择图片" id="" value="上传头像" />
+								</div>
+								<p>
+									<span>昵称</span>
+									<input type="text" placeholder="昵称" />
+								</p>
+								<p >
+									<span>性别</span>
+									<input type="radio" value="男" id="s11" name="xb" checked="checked" style="height: 11px;line-height: 11px;" /><label for="s11">男</label>
+									<input type="radio" value="女" id="s12" name="xb" style="height: 11px;line-height: 11px;" /><label for="s12">女</label>
+								</p>
+								<p>
+									<span>手机号码</span>
+									<input type="tel" name="" id="" placeholder="联系电话" />
+									
+								</p>
+								<p>
+									<span>年龄段</span>
+									<select name="年龄段">
+										<option value="">70后</option>
+										<option value="">80后</option>
+										<option value="">90后</option>
+									</select>
+								</p>
+								<div id="city_china_val">
+									<span>收货地址</span>
+									<select class="province cxselect" data-value="江西省" data-first-title="选择省" disabled="disabled"></select>
+									<select class="city cxselect" data-value="赣州市" data-first-title="选择市" disabled="disabled"></select>
+									<select class="area cxselect" data-value="龙南县" data-first-title="选择地区" disabled="disabled"></select>
+									<input type="text" name="" id="" placeholder="详细地址" />
+								</div>
+								<p>
+									<span></span>
+									<input type="submit" name="" id="" value="确认修改" />
+								</p>
+							</form>
+						</div>
+						<div class="">
+							<p>个人版</p>
+							<form action="" method="post">
+							
+								<div class="">
+									<span>微信二维码</span>
+									<img src="images/2 (11).jpg" />
+									<span></span>
+									<input type="file" name="选择图片" id="" value="上传头像" />
+								</div>
+								<p>
+									<span>公司名称</span>
+									<input type="text" name="" id="" placeholder="公司名称或门市名称"/>
+								</p>
+								<p>
+									<span>联系人</span>
+									<input type="text" name="" id="" placeholder="联系人姓名"/>
+								</p>
+								<p>
+									<span>手机1</span>
+									<input type="text" name="" id="" placeholder="手机号码"/>
+								</p>
+								<p>
+									<span>手机号2</span>
+									<input type="text" name="" id="" placeholder="手机号"/>
+								</p>
+								<div id="city_china_val1">
+									<span>门市地址</span>
+									<select class="province cxselect" data-value="江西省" data-first-title="选择省" disabled="disabled"></select>
+									<select class="city cxselect" data-value="赣州市" data-first-title="选择市" disabled="disabled"></select>
+									<select class="area cxselect" data-value="龙南县" data-first-title="选择地区" disabled="disabled"></select>
+									<input type="text" name="" id="" placeholder="详细地址" />
+								</div>
+								<p>
+									<span></span>
+									<input type="submit" name="" id="" value="确认修改" />
+								</p>
+							</form>
+						</div>
+					</div>
+					<!--个人中心END-->
+					<!--订单管理-->
+					<div class="ordersManage" style="display: none;">
+						<ul>
+							<li class="ordersManage5">全部订单</li>
+							<li class="ordersManage4">已收件</li>
+							<li class="ordersManage3">已发货</li>
+							<li class="ordersManage2">未发货</li>
+							<li class="ordersManage1">待付款</li>
+							<li class="ordersManage0">已取消</li>
+						</ul>
+						<ul>
+							<li>商品名称</li>
+							<li>单价（元）</li>
+							<li>数量（件）</li>
+							<li>总价（元）</li>
+							<li>订单形成时间</li>
+							<li>交易状态</li>
+						</ul>
+						<ul>
+							<li class="ordersManage4">
+								<span>Aurora奥罗拉皮沙发多多多多多多</span>
+								<span>666</span>
+								<span>2</span>
+								<span>1332</span>
+								<span>2016.11.16</span>
+								<span class="ordersManage4">已收件</span>
+							</li>
+							<li class="ordersManage3">
+								<span>xxx餐桌椅</span>
+								<span>666</span>
+								<span>2</span>
+								<span>1332</span>
+								<span>2016.11.16</span>
+								<span>已发货</span>
+							</li>
+							<li class="ordersManage2">
+								<span>xxx餐桌椅</span>
+								<span>666</span>
+								<span>2</span>
+								<span>1332</span>
+								<span>2016.11.16</span>
+								<span>未发货</span>
+							</li>
+							<li class="ordersManage1">
+								<span>xxx餐桌椅</span>
+								<span>666</span>
+								<span>2</span>
+								<span>1332</span>
+								<span>2016.11.16</span>
+								<span>未付款</span>
+							</li>
+							<li class="ordersManage0">
+								<span>xxx餐桌椅</span>
+								<span>666</span>
+								<span>2</span>
+								<span>1332</span>
+								<span>2016.11.16</span>
+								<span>已取消</span>
+							</li>
+
+						</ul>
+					</div>
+					<!--订单管理END-->
+					<!--足迹-->
+					<div class="collection" style="display: none;">
+						<ul>
+							<li class="collection1">收藏的店铺</li>
+							<li class="collection2">收藏的商品</li>
+							<li class="collection3">咨询过报价的店铺</li>
+							<li class="collection4">浏览记录</li>
+						</ul>
+						<hr style="margin: 0 5%;" />
+						<!--收藏的店铺-->
+						<ul class="collection1">
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>删除</p>
+									</div>
+								</div>
+								<p>店铺名称</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>删除</p>
+									</div>
+								</div>
+								<p>店铺名称</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>删除</p>
+									</div>
+								</div>
+								<p>店铺名称</p>
+							</li>
+
+						</ul>
+						<ul class="collection2">
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>删除</p>
+									</div>
+								</div>
+								<p>宝贝名称qqqqfasdfadfasqqqqq</p>
+								<p>￥520</p>
+							</li>
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>删除收藏</p>
+									</div>
+								</div>
+								<p>宝贝名称qqqqfasdfadfasqqqqq</p>
+								<p>￥520</p>
+							</li>
+
+						</ul>
+						<ul class="collection3">
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+								</div>
+								<p>客户名</p>
+							</li>
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+								</div>
+								<p>客户名</p>
+							</li>
+						</ul>
+						<ul class="collection4">
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>收藏商品</p>
+									</div>
+								</div>
+								<p>宝贝名称qqqqfasdfadfasqqqqq</p>
+								<p>2016.11.16</p>
+							</li>
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>收藏商品</p>
+									</div>
+								</div>
+								<p>2016.11.16</p>
+								<p>￥520</p>
+							</li>
+							<li>
+								<div class="">
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>进入店铺</p>
+										<p>收藏商品</p>
+									</div>
+								</div>
+								<p>2016.11.16</p>
+								<p>￥520</p>
+							</li>
+						</ul>
+					</div>
+					<!--足迹END-->
+					<!--客户管理-->
+					<div class="customer" style="display: none;">
+						<ul>
+							<li class="customer1">咨询报价的客户</li>
+							<li class="customer2">允许查看报价的客户</li>
+							<li class="customer3">不允许查看报价的客户</li>
+							<li class="customer4">访客</li>
+						</ul>
+						<hr style="margin: 0 5%;" />
+						<!--咨询报价的客户-->
+						<ul class="customer1">
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许</p>
+										<p>拒绝</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>咨询时间</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许</p>
+										<p>拒绝</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>咨询时间</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许</p>
+										<p>拒绝</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>咨询时间</p>
+							</li>
+						</ul>
+						<!--允许查看报价的客户-->
+						<ul class="customer2">
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许+1</p>
+										<p>允许-1</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>允许时间</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许+1</p>
+										<p>允许-1</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>允许时间</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许+1</p>
+										<p>允许-1</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>允许时间</p>
+							</li>
+						</ul>
+						<!--不允许查看报价的客户-->
+						<ul class="customer3">
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>不允许时间</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>不允许时间</p>
+							</li>
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+									<div>
+										<p>允许</p>
+									</div>
+								</div>
+								<p>客户名称</p>
+								<p>不允许时间</p>
+							</li>
+						</ul>
+						<ul class="customer4">
+							<li>
+								<div>
+									<img src="images/2 (11).jpg" alt="" />
+								</div>
+								<p>客户名称</p>
+								<p>访问时间</p>
+							</li>
+						</ul>
+					</div>
+					<!--客户管理-->
+				</div>
+			</div>
+		</div>
+		<!--弹出-->
+		<div class="panel-default2">
+			<div class="">
+				<p>联系人：xxx</p>
+				<p>电话：18888888888</p>
+				<img src="images/erweima.png" />
+			</div>
+		</div>
+
+		<!--预留底部信息-->
+		<div class="obligate">
+
+			<div class="">
+				关注商家：<span class="panel-default1 iconfont">&#xe63a;</span>
+			</div>
+			<div class="">
+				商家地址：江西省赣州市南康区光明家具城C区<span>联系电话：18888888888</span>
+			</div>
+			<div class="">
+				技术支持地址：江西省赣州市南康区光明家具城C区4楼
+				<span>联系电话：18888888888</span>
+				<span>
+					此页面由江西省赣州市艾克科技有限公司技术独家支持，版权所有
+				</span>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/user.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cxselect.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$.cxSelect.defaults.url = 'js/cityData.min.json';
+			
+			$('#city_china').cxSelect({
+				selects: ['province', 'city', 'area']
+			});
+			
+			$('#city_china_val,#city_china_val1').cxSelect({
+				selects: ['province', 'city', 'area'],
+				nodata: 'none'
+			});
+		</script>
+	</body>
+
+</html>

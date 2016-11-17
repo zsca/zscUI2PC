@@ -1,0 +1,283 @@
+.userIBox{
+	width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	min-height: 300px;
+}
+/*左侧*/
+.userIBox div.userIBoxLeft{
+	flex: 1;
+	border: 1px solid gainsboro;
+	margin: 0 30px;
+}
+.userIBox div.userIBoxLeft div{
+	width: 70%;
+	margin: 20px 15%;
+}
+.userIBox div.userIBoxLeft div p{
+	font-size: 15px;
+}
+.userIBox div.userIBoxLeft div ul{
+	padding-left: 20px;
+}
+.userIBox div.userIBoxLeft div ul li{
+	list-style-type: none;
+	cursor: default;
+	line-height: 25px;
+	height: 25px;
+	font-size: 12px;
+}
+
+.userIBox div.userIBoxLeft div ul li a{
+	color: #000000;
+}
+/*左侧END*/
+/*右侧*/
+.userIBox div.userIBoxRight{
+	flex: 3;
+	padding: 20px 15px;
+}
+
+/*个人中心*/
+.userIBox div.userIBoxRight .oneCenter{
+	margin-top: 20px;
+}
+.userIBox div.userIBoxRight .oneCenter>p{
+	margin: 10px;
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.userIBox div.userIBoxRight .oneCenter>div{
+	width: 60%;
+	margin:0 auto;
+}
+.userIBox div.userIBoxRight .oneCenter>div form{
+	width: 100%;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>div:nth-of-type(1){
+	margin: 0;
+	font-size: 12px;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>div:nth-of-type(1) input{
+	margin-top: 20px;
+	
+}
+.userIBox div.userIBoxRight .oneCenter>div form>div:nth-of-type(1) img{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>p{
+	font-size: 12px;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>p span,
+.userIBox div.userIBoxRight .oneCenter>div form>div span{
+	display: inline-block;
+	width: 60px;
+	line-height: 25px;
+	height: 25px;
+	margin-right: 20px;
+	text-align: right;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>p input{
+	height: 25px;
+	line-height: 25px;
+}
+
+.userIBox div.userIBoxRight .oneCenter>div form>p label{
+	line-height: 12px !important;
+	height: 12px !;
+	font-size: 12px;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>p select,
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val select,
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val1 select{
+	padding: 8px 10px;
+	font-size: 14px;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>p select option{
+	padding: 8px 10px;
+	font-size: 15px;	
+}
+.userIBox div.userIBoxRight .oneCenter>div form>p:nth-of-type(5) input{
+	padding: 3px 12px;
+	height: auto;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-left: 15px;
+	text-align: center;
+	background-color: #000000;
+	border: 1px solid #000000;
+	color: white;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val,
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val1{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val select,
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val1 select{
+	width: 100px;
+}
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val input,
+.userIBox div.userIBoxRight .oneCenter>div form>#city_china_val1 input{
+	margin-left: 85px;
+	margin-top: 10px;
+	padding: 8px 10px;
+	width: 280px;
+}
+/*个人中心END*/
+/*订单管理管理*/
+.userIBox div.userIBoxRight .ordersManage{
+	
+}
+.userIBox div.userIBoxRight .ordersManage ul{
+	margin: 20px 0;
+	padding: 0;
+}
+.userIBox div.userIBoxRight .ordersManage ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 11px;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius:5px ;
+	margin-right: 15px;
+	font-size: 15px;
+	cursor: default;
+}
+.userIBox div.userIBoxRight .ordersManage ul li a{
+	color: #000000;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2){
+	background-color: #000000;
+	color: white;
+	padding: 5px;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2) li{
+	border: none;
+	padding: 8px 2px;
+	margin: 0;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2) li:nth-of-type(1),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li span:nth-last-child(6){
+	width: 170px;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2) li:nth-of-type(2),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2) li:nth-of-type(3),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2) li:nth-of-type(4),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li span:nth-of-type(2),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li span:nth-of-type(3),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li span:nth-of-type(4){
+	width: 80px;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(2) li:nth-of-type(5),
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li span:nth-of-type(5){
+	width: 100px;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3){
+	padding: 0 2px;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li{
+	padding: 15px 5px;
+	width: 100%;
+	border-bottom: 1px solid gainsboro;
+}
+.userIBox div.userIBoxRight .ordersManage ul:nth-of-type(3) li span{
+	display: inline-block;
+	padding: 8px 2px;
+	line-height: 20px;
+	text-align: center;
+}
+.ordersManageLiAdd{
+	background-color: #000000;
+	color: white;
+}
+/*订单管理管理END*/
+/*足迹、客户管理*/
+.userIBox div.userIBoxRight .collection ul:nth-of-type(1) li,
+.userIBox div.userIBoxRight .customer ul:nth-of-type(1) li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 11px;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius:5px ;
+	margin-right: 15px;
+	font-size: 15px;
+	width: auto;
+	margin-bottom: 0;
+	cursor: default;
+}
+.userIBox div.userIBoxRight .collection ul li,
+.userIBox div.userIBoxRight .customer ul li{
+	width:170px;
+	overflow: hidden;
+	display: inline-block;
+	list-style-type: none;
+	border:1px solid rgba(0,0,0,0);
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+.userIBox div.userIBoxRight .collection ul li:hover,
+.userIBox div.userIBoxRight .customer ul li:hover{
+	border: 1px solid gainsboro;
+}
+.userIBox div.userIBoxRight .collection ul li div img,
+.userIBox div.userIBoxRight .customer ul li div img{
+	width: 100%;
+}
+.userIBox div.userIBoxRight .collection ul li:hover div div,
+.userIBox div.userIBoxRight .customer ul li:hover div div{
+	display: flex;
+}
+.userIBox div.userIBoxRight .collection ul li div div,
+.userIBox div.userIBoxRight .customer ul li div div{
+	display: flex;
+	height: 22px;
+	line-height: 22px;
+	font-size: 15px;
+	margin-top:-26px ;
+	padding: 2px 0;
+	text-align: center;
+	display: none;
+}
+.userIBox div.userIBoxRight .collection ul li div div p,
+.userIBox div.userIBoxRight .customer ul li div div p{
+	flex: 1;
+	
+	padding: 0;
+	margin: 0;
+	border: 2px solid rgba(0,0,0,0);
+	border-bottom: none;
+}
+.userIBox div.userIBoxRight .collection ul li div div p:nth-of-type(1),
+.userIBox div.userIBoxRight .customer ul li div div p:nth-of-type(1){
+	background-color: black;
+	cursor: pointer;
+	color: white;
+}
+.userIBox div.userIBoxRight .collection ul li div div p:nth-of-type(2),
+.userIBox div.userIBoxRight .customer ul li div div p:nth-of-type(2){
+	background-color: gainsboro;
+	color: #3E3E3E;
+	cursor: default;
+}
+.userIBox div.userIBoxRight .collection ul li p,
+.userIBox div.userIBoxRight .customer ul li p{
+	padding:0 2px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	text-align: center;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+.userIBox div.userIBoxRight .collection ul li p:nth-of-type(2),
+.userIBox div.userIBoxRight .customer ul li p:nth-of-type(2){
+	font-weight: bold;
+}
+/*足迹、客户管理END*/
+/*右侧END*/
