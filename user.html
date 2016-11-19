@@ -132,9 +132,9 @@
 								</p>
 								<div id="city_china_val">
 									<span>收货地址</span>
-									<select class="province cxselect" data-value="江西省" data-first-title="选择省" disabled="disabled"></select>
-									<select class="city cxselect" data-value="赣州市" data-first-title="选择市" disabled="disabled"></select>
-									<select class="area cxselect" data-value="龙南县" data-first-title="选择地区" disabled="disabled"></select>
+									<select id="sheng" onclick="shishuchu()" ></select>
+									<select id="shi" onclick="xianshuchu()" ></select>
+									<select id="xian" ></select>
 									<input type="text" name="" id="" placeholder="详细地址" />
 								</div>
 								<p>
@@ -144,7 +144,7 @@
 							</form>
 						</div>
 						<div class="">
-							<p>个人版</p>
+							<p>企业版</p>
 							<form action="" method="post">
 							
 								<div class="">
@@ -171,9 +171,9 @@
 								</p>
 								<div id="city_china_val1">
 									<span>门市地址</span>
-									<select class="province cxselect" data-value="江西省" data-first-title="选择省" disabled="disabled"></select>
-									<select class="city cxselect" data-value="赣州市" data-first-title="选择市" disabled="disabled"></select>
-									<select class="area cxselect" data-value="龙南县" data-first-title="选择地区" disabled="disabled"></select>
+									<select id="sheng" onclick="shishuchu()" ></select>
+									<select id="shi" onclick="xianshuchu()" ></select>
+									<select id="xian" ></select>
 									<input type="text" name="" id="" placeholder="详细地址" />
 								</div>
 								<p>
@@ -522,19 +522,8 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 		<script src="js/user.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cxselect.min.js" type="text/javascript" charset="utf-8"></script>
-		<script>
-			$.cxSelect.defaults.url = 'js/cityData.min.json';
-			
-			$('#city_china').cxSelect({
-				selects: ['province', 'city', 'area']
-			});
-			
-			$('#city_china_val,#city_china_val1').cxSelect({
-				selects: ['province', 'city', 'area'],
-				nodata: 'none'
-			});
-		</script>
+		<script src="js/shengShiJiLian.js" type="text/javascript" charset="utf-8"></script>
+	
 	</body>
 
 </html>

@@ -2,15 +2,19 @@ $(document).ready(function() {
 	
 	//分类给分类
 	$(".classIFY #tagnav ul li,#pullDown .pullDownRight ul").hover(function(){
+		var index=$(this).index();
+		$("#carousel-example-generic").hide()
 		$("#pullDown").show();
-		$(this).css("background-color","white").find("a").css("color","#000000")
+		
+		$(".classIFY #tagnav ul li:eq("+index+")").css("background-color","white").find("a").css("color","#000000")
 		var liIndex=$(this).index();
 		$("#pullDown .pullDownRight ul:eq("+liIndex+")").show().siblings().hide();
 		
 	},function(){
-		$(this).css("background-color","").find("a").css("color","")
+		$(".classIFY #tagnav ul li").css("background-color","").find("a").css("color","")
 		$("#pullDown").hide();
 		$("#pullDown .pullDownRight ul").hide();
+		$("#carousel-example-generic").show()
 	});
 	
 	//二级分类右侧END
